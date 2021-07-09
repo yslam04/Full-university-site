@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/fontawesome.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="img/logo.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">BAŞ  SAHYPA</a> </li>
+                    <li> <a href="about.html">BIZ  BARADA</a> </li>
+                    <li> <a href="course.html">OKUWLAR</a> </li>
+                    <li> <a href="blog.html"> ISLER</a> </li>
+                    <li> <a href="contact.html">BIZ  BILEN  HABARLAŞ</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Biz Bilen Habarlaş</h1>
+    </section>
+    <!-- contact us -->
+    <section class="location">
+        <img class="iframe" src="img/1.png" alt="">
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>X ýyl Abadançylyk k. 137jaý</h5>
+                        <p>Aşgabat şäher, Köpetdag etrap</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+993 62-22-04-04</h5>
+                        <p>Hepdäň ähli güni, 09:30-18:00 çenli </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>salamsagbol@gmail.com</h5>
+                        <p>Gmail arkaly bize ýazyp bilersiňiz! </p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Adyny yaz" required>
+                    <input type="email" placeholder="Elektron poctany yaz" required>
+                    <input type="text" placeholder="Habaryny yaz" required>
+                    <textarea  rows="8" placeholder="Habar" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Habaryny iber</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--Footer -->
+    <section class="footer">
+        <h4>BIZ BARADA</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum esse, a illum dicta autem veniam <br> et
+            corrupti impedit, unde ratione earum. Quos minima temporibus voluptatibus!</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+
+        </div>
+        <p> <span class="spn"> Yslam Halmuhammedow </span> tarapyndan yasaldy</p>
+    </section>
+
+
+
+
+
+    <!-- Javascript -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
